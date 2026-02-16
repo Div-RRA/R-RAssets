@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Interior Projects — Studio Name</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="brand">Studio Name</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="expertise.html">Expertise</a></li>
+          <li><a href="interior-projects.html">Interior Projects</a></li>
+          <li><a href="press.html">Press</a></li>
+        </ul>
+      </nav>
+      <div class="contact">
+        84 Example Street, London<br/>
+        020 0000 0000 | hello@yourdomain.com<br/>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </header>
+
+    <main class="section">
+      <h1 class="section-title">Interior Projects</h1>
+      <p>Curated residential projects and developments.</p>
+
+      <div class="grid" style="margin-top:18px">
+        <!-- Duplicate cards for more projects -->
+        <a class="card" href="project.html?p=eaton-square">
+          <span class="thumb"></span>
+          <h3>Eaton Square</h3>
+          <div class="meta">Penthouse refurbishment</div>
+          <span class="cta">View project</span>
+        </a>
+
+        <a class="card" href="project.html?p=shepherds-street">
+          <span class="thumb"></span>
+          <h3>Shepherds Street</h3>
+          <div class="meta">Maisonette • Mayfair</div>
+          <span class="cta">View project</span>
+        </a>
+
+        <a class="card" href="project.html?p=beaufort-street">
+          <span class="thumb"></span>
+          <h3>Beaufort Street</h3>
+          <div class="meta">Apartment • Chelsea</div>
+          <span class="cta">View project</span>
+        </a>
+      </div>
+    </main>
+
+    <footer>
+      <div>© <span id="y"></span> Studio Name</div>
+      <div>
+        84 Example Street, London • 020 0000 0000 • hello@yourdomain.com
+      </div>
+    </footer>
+  </div>
+
+  <script src="assets/main.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
